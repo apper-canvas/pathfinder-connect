@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react'
 import { motion } from 'framer-motion'
 import ApperIcon from '@/components/ApperIcon'
 import CareerCard from '@/components/molecules/CareerCard'
+import ComparisonTable from '@/components/molecules/ComparisonTable'
 import Loading from '@/components/ui/Loading'
 import Error from '@/components/ui/Error'
 import Empty from '@/components/ui/Empty'
@@ -12,6 +13,8 @@ const CareerPaths = () => {
   const [careers, setCareers] = useState([])
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState('')
+  const [isComparisonMode, setIsComparisonMode] = useState(false)
+  const [selectedCareers, setSelectedCareers] = useState([])
   const [filters, setFilters] = useState({
     matchScore: 0,
     salaryRange: '',
@@ -53,6 +56,24 @@ const CareerPaths = () => {
   if (loading) return <Loading type="cards" />
   if (error) return <Error message={error} onRetry={loadCareers} />
 
+const toggleCareerSelection = (career) => {
+    setSelectedCareers(prev => {
+      const isSelected = prev.some(c => c.Id === career.Id)
+      if (isSelected) {
+        return prev.filter(c => c.Id !== career.Id)
+      } else {
+        return [...prev, career]
+      }
+    })
+  }
+
+  const handleComparisonMode = () => {
+    setIsComparisonMode(!isComparisonMode)
+    if (!isComparisonMode) {
+      setSelectedCareers([])
+    }
+  }
+
   return (
     <div className="space-y-8">
       {/* Header */}
@@ -64,9 +85,28 @@ const CareerPaths = () => {
         >
           Your Career Recommendations
         </motion.h1>
-        <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+        <p className="text-xl text-gray-600 max-w-3xl mx-auto mb-6">
           Based on your assessment, we've found careers that match your interests, skills, and goals.
         </p>
+        
+        {/* Comparison Mode Toggle */}
+        <div className="flex items-center justify-center space-x-4">
+          <Button
+            variant={isComparisonMode ? "primary" : "outline"}
+            onClick={handleComparisonMode}
+            className="flex items-center space-x-2"
+          >
+            <ApperIcon name="BarChart3" size={16} />
+            <span>
+              {isComparisonMode ? 'Exit Comparison' : 'Compare Careers'}
+            </span>
+          </Button>
+          {isComparisonMode && (
+            <span className="text-sm text-gray-600">
+              {selectedCareers.length} career{selectedCareers.length !== 1 ? 's' : ''} selected
+            </span>
+          )}
+        </div>
       </div>
 
       {/* Filters */}
@@ -145,6 +185,13 @@ const CareerPaths = () => {
           onAction={resetFilters}
           icon="Search"
         />
+) : isComparisonMode ? (
+        <ComparisonTable 
+          careers={filteredCareers}
+          selectedCareers={selectedCareers}
+          onCareerSelect={toggleCareerSelection}
+          onCareerRemove={(career) => setSelectedCareers(prev => prev.filter(c => c.Id !== career.Id))}
+        />
       ) : (
         <div className="space-y-6">
           <div className="flex items-center justify-between">
@@ -155,13 +202,24 @@ const CareerPaths = () => {
             
             <div className="flex items-center space-x-2 text-sm text-gray-500">
               <ApperIcon name="Lightbulb" size={16} />
-              <span>Click any career to see detailed requirements</span>
+              <span>
+                {isComparisonMode 
+                  ? "Select careers to compare side-by-side" 
+                  : "Click any career to see detailed requirements"}
+              </span>
             </div>
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {filteredCareers.map((career, index) => (
-              <CareerCard key={career.Id} career={career} index={index} />
+              <CareerCard 
+                key={career.Id} 
+                career={career} 
+                index={index}
+                isComparisonMode={isComparisonMode}
+                isSelected={selectedCareers.some(c => c.Id === career.Id)}
+                onSelect={() => toggleCareerSelection(career)}
+              />
             ))}
           </div>
         </div>

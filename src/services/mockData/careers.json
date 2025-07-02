@@ -6,7 +6,27 @@
     "matchScore": 94,
     "avgSalary": "$75,000 - $120,000",
     "requiredSkills": ["JavaScript", "React", "Node.js", "Python", "Git", "SQL"],
-    "growthRate": "High"
+    "growthRate": "High",
+    "experienceLevel": "Entry to Mid-level",
+    "industry": "Technology",
+    "pros": [
+      "High demand in job market",
+      "Remote work opportunities",
+      "Continuous learning and growth",
+      "Creative problem solving",
+      "Competitive salaries"
+    ],
+    "cons": [
+      "Requires constant skill updates",
+      "Can be stressful with tight deadlines",
+      "Sedentary work environment",
+      "Debugging can be frustrating"
+    ],
+    "growthProjection": {
+      "rate": "22%",
+      "outlook": "Much faster than average",
+      "demand": "Very High"
+    }
   },
   {
     "Id": 2,
@@ -15,7 +35,27 @@
     "matchScore": 87,
     "avgSalary": "$85,000 - $140,000",
     "requiredSkills": ["Python", "R", "Machine Learning", "Statistics", "SQL", "Data Visualization"],
-    "growthRate": "High"
+    "growthRate": "High",
+    "experienceLevel": "Mid to Senior-level",
+    "industry": "Technology",
+    "pros": [
+      "High earning potential",
+      "Intellectually challenging work",
+      "Growing field with opportunities",
+      "Impact on business decisions",
+      "Diverse industry applications"
+    ],
+    "cons": [
+      "Requires advanced education",
+      "Complex mathematical concepts",
+      "Data quality issues",
+      "Long analysis cycles"
+    ],
+    "growthProjection": {
+      "rate": "35%",
+      "outlook": "Much faster than average",
+      "demand": "Very High"
+    }
   },
   {
     "Id": 3,
@@ -24,7 +64,27 @@
     "matchScore": 92,
     "avgSalary": "$65,000 - $105,000",
     "requiredSkills": ["Figma", "User Research", "Prototyping", "Design Thinking", "HTML/CSS", "Usability Testing"],
-    "growthRate": "Above Average"
+    "growthRate": "Above Average",
+    "experienceLevel": "Entry to Mid-level",
+    "industry": "Design & Technology",
+    "pros": [
+      "Creative and user-focused work",
+      "High demand across industries",
+      "Remote work opportunities",
+      "Collaborative environment",
+      "Direct impact on user experience"
+    ],
+    "cons": [
+      "Subjective feedback and criticism",
+      "Tight project deadlines",
+      "Keeping up with design trends",
+      "Balancing user needs vs business goals"
+    ],
+    "growthProjection": {
+      "rate": "13%",
+      "outlook": "Faster than average",
+      "demand": "High"
+    }
   },
   {
     "Id": 4,
@@ -33,7 +93,27 @@
     "matchScore": 83,
     "avgSalary": "$90,000 - $150,000",
     "requiredSkills": ["Product Strategy", "Market Research", "Agile", "Communication", "Analytics", "Project Management"],
-    "growthRate": "High"
+    "growthRate": "High",
+    "experienceLevel": "Mid to Senior-level",
+    "industry": "Technology & Business",
+    "pros": [
+      "Strategic leadership role",
+      "High earning potential",
+      "Cross-functional collaboration",
+      "Direct business impact",
+      "Career advancement opportunities"
+    ],
+    "cons": [
+      "High responsibility and pressure",
+      "Managing competing priorities",
+      "Requires broad skill set",
+      "Accountability for product success"
+    ],
+    "growthProjection": {
+      "rate": "19%",
+      "outlook": "Much faster than average",
+      "demand": "Very High"
+    }
   },
   {
     "Id": 5,
@@ -42,7 +122,27 @@
     "matchScore": 79,
     "avgSalary": "$55,000 - $85,000",
     "requiredSkills": ["SEO", "Google Analytics", "Social Media", "Content Marketing", "PPC", "Email Marketing"],
-    "growthRate": "Above Average"
+    "growthRate": "Above Average",
+    "experienceLevel": "Entry to Mid-level",
+    "industry": "Marketing & Communications",
+    "pros": [
+      "Creative and analytical work",
+      "Measurable results and ROI",
+      "Diverse marketing channels",
+      "Fast-paced environment",
+      "Growing digital economy"
+    ],
+    "cons": [
+      "Constantly changing algorithms",
+      "Pressure for immediate results",
+      "Budget constraints",
+      "Keeping up with digital trends"
+    ],
+    "growthProjection": {
+      "rate": "10%",
+      "outlook": "Faster than average",
+      "demand": "High"
+    }
   },
   {
     "Id": 6,
@@ -51,7 +151,27 @@
     "matchScore": 88,
     "avgSalary": "$70,000 - $110,000",
     "requiredSkills": ["Network Security", "Incident Response", "Risk Assessment", "Security Tools", "Compliance", "Penetration Testing"],
-    "growthRate": "High"
+    "growthRate": "High",
+    "experienceLevel": "Entry to Senior-level",
+    "industry": "Technology & Security",
+    "pros": [
+      "High job security and demand",
+      "Intellectually challenging work",
+      "Protecting organizations",
+      "Continuous learning opportunities",
+      "Competitive compensation"
+    ],
+    "cons": [
+      "High-stress environment",
+      "On-call responsibilities",
+      "Constantly evolving threats",
+      "Requires continuous education"
+    ],
+    "growthProjection": {
+      "rate": "33%",
+      "outlook": "Much faster than average",
+      "demand": "Very High"
+    }
   },
   {
     "Id": 7,
@@ -60,7 +180,27 @@
     "matchScore": 76,
     "avgSalary": "$60,000 - $95,000",
     "requiredSkills": ["Excel", "Financial Modeling", "Analysis", "SQL", "PowerBI", "Statistics"],
-    "growthRate": "Average"
+    "growthRate": "Average",
+    "experienceLevel": "Entry to Mid-level",
+    "industry": "Finance & Business",
+    "pros": [
+      "Stable career path",
+      "Analytical and detail-oriented work",
+      "Good earning potential",
+      "Opportunities across industries",
+      "Skills transferable globally"
+    ],
+    "cons": [
+      "Can be repetitive work",
+      "High attention to detail required",
+      "Pressure during reporting periods",
+      "Long hours during busy seasons"
+    ],
+    "growthProjection": {
+      "rate": "6%",
+      "outlook": "Average growth",
+      "demand": "Moderate"
+    }
   },
   {
     "Id": 8,
@@ -69,7 +209,27 @@
     "matchScore": 91,
     "avgSalary": "$80,000 - $130,000",
     "requiredSkills": ["Docker", "Kubernetes", "AWS", "CI/CD", "Linux", "Terraform"],
-    "growthRate": "High"
+    "growthRate": "High",
+    "experienceLevel": "Mid to Senior-level",
+    "industry": "Technology",
+    "pros": [
+      "High demand and compensation",
+      "Cutting-edge technology work",
+      "Problem-solving focus",
+      "Automation and efficiency",
+      "Career growth opportunities"
+    ],
+    "cons": [
+      "Complex technology stack",
+      "On-call responsibilities",
+      "Rapidly changing tools",
+      "High learning curve"
+    ],
+    "growthProjection": {
+      "rate": "25%",
+      "outlook": "Much faster than average",
+      "demand": "Very High"
+    }
   },
   {
     "Id": 9,
@@ -78,7 +238,27 @@
     "matchScore": 81,
     "avgSalary": "$65,000 - $100,000",
     "requiredSkills": ["Requirements Analysis", "Process Mapping", "SQL", "Documentation", "Stakeholder Management", "Agile"],
-    "growthRate": "Above Average"
+    "growthRate": "Above Average",
+    "experienceLevel": "Entry to Mid-level",
+    "industry": "Business & Technology",
+    "pros": [
+      "Bridge between business and tech",
+      "Variety in projects and industries",
+      "Good work-life balance",
+      "Problem-solving opportunities",
+      "Career advancement paths"
+    ],
+    "cons": [
+      "Requires strong communication",
+      "Managing multiple stakeholders",
+      "Ambiguous requirements",
+      "Documentation-heavy work"
+    ],
+    "growthProjection": {
+      "rate": "11%",
+      "outlook": "Faster than average",
+      "demand": "High"
+    }
   },
   {
     "Id": 10,
@@ -87,6 +267,26 @@
     "matchScore": 89,
     "avgSalary": "$100,000 - $160,000",
     "requiredSkills": ["AWS", "Azure", "Cloud Architecture", "Infrastructure as Code", "Security", "System Design"],
-    "growthRate": "High"
+    "growthRate": "High",
+    "experienceLevel": "Senior-level",
+    "industry": "Technology",
+    "pros": [
+      "Very high compensation",
+      "Strategic and technical role",
+      "High demand in market",
+      "Cloud transformation focus",
+      "Leadership opportunities"
+    ],
+    "cons": [
+      "Requires extensive experience",
+      "Complex architectural decisions",
+      "High responsibility for costs",
+      "Rapidly evolving cloud services"
+    ],
+    "growthProjection": {
+      "rate": "30%",
+      "outlook": "Much faster than average",
+      "demand": "Very High"
+    }
   }
 ]
