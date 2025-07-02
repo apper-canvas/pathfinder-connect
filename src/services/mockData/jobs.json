@@ -1,0 +1,110 @@
+[
+  {
+    "Id": 1,
+    "title": "Frontend Developer",
+    "company": "TechStart Inc.",
+    "location": "San Francisco, CA",
+    "salary": "$80,000 - $110,000",
+    "requirements": ["React", "JavaScript", "CSS", "HTML", "Git"],
+    "url": "https://example.com/job1"
+  },
+  {
+    "Id": 2,
+    "title": "Full Stack Developer",
+    "company": "Innovation Labs",
+    "location": "Remote",
+    "salary": "$75,000 - $105,000",
+    "requirements": ["Node.js", "React", "MongoDB", "Express", "JavaScript"],
+    "url": "https://example.com/job2"
+  },
+  {
+    "Id": 3,
+    "title": "Data Analyst",
+    "company": "DataCorp Solutions",
+    "location": "New York, NY",
+    "salary": "$65,000 - $85,000",
+    "requirements": ["Python", "SQL", "Excel", "Tableau", "Statistics"],
+    "url": "https://example.com/job3"
+  },
+  {
+    "Id": 4,
+    "title": "UX/UI Designer",
+    "company": "Creative Studio",
+    "location": "Austin, TX",
+    "salary": "$60,000 - $90,000",
+    "requirements": ["Figma", "Adobe XD", "Prototyping", "User Research", "Design Systems"],
+    "url": "https://example.com/job4"
+  },
+  {
+    "Id": 5,
+    "title": "Senior Software Engineer",
+    "company": "MegaTech Corp",
+    "location": "Seattle, WA",
+    "salary": "$120,000 - $160,000",
+    "requirements": ["Java", "Spring Boot", "Microservices", "AWS", "Docker"],
+    "url": "https://example.com/job5"
+  },
+  {
+    "Id": 6,
+    "title": "Product Manager",
+    "company": "StartupX",
+    "location": "Los Angeles, CA",
+    "salary": "$100,000 - $140,000",
+    "requirements": ["Product Strategy", "Agile", "Analytics", "Roadmapping", "Stakeholder Management"],
+    "url": "https://example.com/job6"
+  },
+  {
+    "Id": 7,
+    "title": "DevOps Engineer",
+    "company": "CloudFirst",
+    "location": "Denver, CO",
+    "salary": "$90,000 - $125,000",
+    "requirements": ["Kubernetes", "Docker", "CI/CD", "Terraform", "Linux"],
+    "url": "https://example.com/job7"
+  },
+  {
+    "Id": 8,
+    "title": "Data Scientist",
+    "company": "AI Innovations",
+    "location": "Boston, MA",
+    "salary": "$95,000 - $135,000",
+    "requirements": ["Python", "Machine Learning", "TensorFlow", "Statistics", "SQL"],
+    "url": "https://example.com/job8"
+  },
+  {
+    "Id": 9,
+    "title": "Cybersecurity Specialist",
+    "company": "SecureNet",
+    "location": "Washington, DC",
+    "salary": "$85,000 - $115,000",
+    "requirements": ["Network Security", "Penetration Testing", "CISSP", "Risk Assessment", "Incident Response"],
+    "url": "https://example.com/job9"
+  },
+  {
+    "Id": 10,
+    "title": "Digital Marketing Manager",
+    "company": "GrowthHackers",
+    "location": "Miami, FL",
+    "salary": "$55,000 - $75,000",
+    "requirements": ["Google Analytics", "SEO", "Social Media", "Content Marketing", "PPC"],
+    "url": "https://example.com/job10"
+  },
+  {
+    "Id": 11,
+    "title": "Business Analyst",
+    "company": "Consulting Group",
+    "location": "Chicago, IL",
+    "salary": "$70,000 - $95,000",
+    "requirements": ["SQL", "Business Process", "Requirements Gathering", "Documentation", "Stakeholder Management"],
+    "url": "https://example.com/job11"
+  },
+  {
+    "Id": 12,
+    "title": "Cloud Architect",
+    "company": "Enterprise Solutions",
+    "location": "Atlanta, GA",
+    "salary": "$110,000 - $150,000",
+    "requirements": ["AWS", "Azure", "Cloud Architecture", "Infrastructure as Code", "System Design"],
+    "url": "https://example.com/job12"
+  }
+]

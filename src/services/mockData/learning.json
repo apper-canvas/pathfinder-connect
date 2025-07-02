@@ -1,0 +1,110 @@
+[
+  {
+    "Id": 1,
+    "title": "JavaScript Fundamentals",
+    "type": "Course",
+    "provider": "Codecademy",
+    "duration": "25 hours",
+    "cost": "Free",
+    "url": "https://codecademy.com"
+  },
+  {
+    "Id": 2,
+    "title": "React Complete Guide",
+    "type": "Video Course",
+    "provider": "Udemy",
+    "duration": "40 hours",
+    "cost": "$89.99",
+    "url": "https://udemy.com"
+  },
+  {
+    "Id": 3,
+    "title": "Node.js Backend Development",
+    "type": "Bootcamp",
+    "provider": "FreeCodeCamp",
+    "duration": "60 hours",
+    "cost": "Free",
+    "url": "https://freecodecamp.org"
+  },
+  {
+    "Id": 4,
+    "title": "Python for Data Science",
+    "type": "Specialization",
+    "provider": "Coursera",
+    "duration": "120 hours",
+    "cost": "$49/month",
+    "url": "https://coursera.org"
+  },
+  {
+    "Id": 5,
+    "title": "Git Version Control",
+    "type": "Tutorial",
+    "provider": "GitHub",
+    "duration": "8 hours",
+    "cost": "Free",
+    "url": "https://github.com"
+  },
+  {
+    "Id": 6,
+    "title": "SQL Database Design",
+    "type": "Course",
+    "provider": "Khan Academy",
+    "duration": "15 hours",
+    "cost": "Free",
+    "url": "https://khanacademy.org"
+  },
+  {
+    "Id": 7,
+    "title": "Machine Learning Basics",
+    "type": "Course",
+    "provider": "edX",
+    "duration": "80 hours",
+    "cost": "$99",
+    "url": "https://edx.org"
+  },
+  {
+    "Id": 8,
+    "title": "Data Visualization with D3",
+    "type": "Workshop",
+    "provider": "Pluralsight",
+    "duration": "12 hours",
+    "cost": "$29/month",
+    "url": "https://pluralsight.com"
+  },
+  {
+    "Id": 9,
+    "title": "UX Design Principles",
+    "type": "Course",
+    "provider": "Google",
+    "duration": "30 hours",
+    "cost": "Free",
+    "url": "https://grow.google"
+  },
+  {
+    "Id": 10,
+    "title": "Figma for Designers",
+    "type": "Tutorial",
+    "provider": "YouTube",
+    "duration": "6 hours",
+    "cost": "Free",
+    "url": "https://youtube.com"
+  },
+  {
+    "Id": 11,
+    "title": "AWS Cloud Practitioner",
+    "type": "Certification",
+    "provider": "Amazon",
+    "duration": "40 hours",
+    "cost": "$100",
+    "url": "https://aws.amazon.com"
+  },
+  {
+    "Id": 12,
+    "title": "Docker Containerization",
+    "type": "Course",
+    "provider": "Docker",
+    "duration": "16 hours",
+    "cost": "Free",
+    "url": "https://docker.com"
+  }
+]

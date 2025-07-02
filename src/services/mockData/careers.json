@@ -1,0 +1,92 @@
+[
+  {
+    "Id": 1,
+    "title": "Software Developer",
+    "description": "Build and maintain software applications using modern programming languages and frameworks. Work on web applications, mobile apps, and system software.",
+    "matchScore": 94,
+    "avgSalary": "$75,000 - $120,000",
+    "requiredSkills": ["JavaScript", "React", "Node.js", "Python", "Git", "SQL"],
+    "growthRate": "High"
+  },
+  {
+    "Id": 2,
+    "title": "Data Scientist",
+    "description": "Analyze complex data to extract insights and build predictive models. Use statistical methods and machine learning to solve business problems.",
+    "matchScore": 87,
+    "avgSalary": "$85,000 - $140,000",
+    "requiredSkills": ["Python", "R", "Machine Learning", "Statistics", "SQL", "Data Visualization"],
+    "growthRate": "High"
+  },
+  {
+    "Id": 3,
+    "title": "UX Designer",
+    "description": "Design user-centered digital experiences. Research user needs, create wireframes and prototypes, and collaborate with development teams.",
+    "matchScore": 92,
+    "avgSalary": "$65,000 - $105,000",
+    "requiredSkills": ["Figma", "User Research", "Prototyping", "Design Thinking", "HTML/CSS", "Usability Testing"],
+    "growthRate": "Above Average"
+  },
+  {
+    "Id": 4,
+    "title": "Product Manager",
+    "description": "Lead product development from conception to launch. Work with cross-functional teams to define product strategy and requirements.",
+    "matchScore": 83,
+    "avgSalary": "$90,000 - $150,000",
+    "requiredSkills": ["Product Strategy", "Market Research", "Agile", "Communication", "Analytics", "Project Management"],
+    "growthRate": "High"
+  },
+  {
+    "Id": 5,
+    "title": "Digital Marketing Manager",
+    "description": "Develop and execute digital marketing strategies across multiple channels. Manage campaigns, analyze performance, and optimize ROI.",
+    "matchScore": 79,
+    "avgSalary": "$55,000 - $85,000",
+    "requiredSkills": ["SEO", "Google Analytics", "Social Media", "Content Marketing", "PPC", "Email Marketing"],
+    "growthRate": "Above Average"
+  },
+  {
+    "Id": 6,
+    "title": "Cybersecurity Analyst",
+    "description": "Protect organizations from cyber threats. Monitor security systems, investigate incidents, and implement security measures.",
+    "matchScore": 88,
+    "avgSalary": "$70,000 - $110,000",
+    "requiredSkills": ["Network Security", "Incident Response", "Risk Assessment", "Security Tools", "Compliance", "Penetration Testing"],
+    "growthRate": "High"
+  },
+  {
+    "Id": 7,
+    "title": "Financial Analyst",
+    "description": "Analyze financial data to support business decisions. Create financial models, forecasts, and investment recommendations.",
+    "matchScore": 76,
+    "avgSalary": "$60,000 - $95,000",
+    "requiredSkills": ["Excel", "Financial Modeling", "Analysis", "SQL", "PowerBI", "Statistics"],
+    "growthRate": "Average"
+  },
+  {
+    "Id": 8,
+    "title": "DevOps Engineer",
+    "description": "Bridge development and operations teams. Automate deployment processes, manage infrastructure, and ensure system reliability.",
+    "matchScore": 91,
+    "avgSalary": "$80,000 - $130,000",
+    "requiredSkills": ["Docker", "Kubernetes", "AWS", "CI/CD", "Linux", "Terraform"],
+    "growthRate": "High"
+  },
+  {
+    "Id": 9,
+    "title": "Business Analyst",
+    "description": "Analyze business processes and requirements. Bridge the gap between business needs and technical solutions.",
+    "matchScore": 81,
+    "avgSalary": "$65,000 - $100,000",
+    "requiredSkills": ["Requirements Analysis", "Process Mapping", "SQL", "Documentation", "Stakeholder Management", "Agile"],
+    "growthRate": "Above Average"
+  },
+  {
+    "Id": 10,
+    "title": "Cloud Architect",
+    "description": "Design and implement cloud infrastructure solutions. Plan migration strategies and optimize cloud environments for performance and cost.",
+    "matchScore": 89,
+    "avgSalary": "$100,000 - $160,000",
+    "requiredSkills": ["AWS", "Azure", "Cloud Architecture", "Infrastructure as Code", "Security", "System Design"],
+    "growthRate": "High"
+  }
+]
