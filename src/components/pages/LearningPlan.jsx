@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react'
 import { motion } from 'framer-motion'
+import { toast } from 'react-toastify'
 import ApperIcon from '@/components/ApperIcon'
 import Card from '@/components/atoms/Card'
 import Button from '@/components/atoms/Button'
@@ -61,6 +62,15 @@ const LearningPlan = () => {
       : [...completedItems, resourceId]
     
     saveProgress(newCompleted)
+}
+
+  const openResource = (resource) => {
+    if (resource.url) {
+      window.open(resource.url, '_blank', 'noopener,noreferrer')
+      toast.success(`Opening ${resource.title} in new tab`)
+    } else {
+      toast.error('Resource link not available')
+    }
   }
 
   const phases = [
@@ -267,13 +277,14 @@ const LearningPlan = () => {
                         </div>
                       </div>
                     </div>
-                  </div>
+</div>
                   
                   <Button
                     variant="ghost"
                     size="sm"
                     icon="ExternalLink"
                     className="ml-4"
+                    onClick={() => openResource(resource)}
                   >
                     Start
                   </Button>
