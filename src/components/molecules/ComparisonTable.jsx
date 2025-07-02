@@ -24,7 +24,7 @@ const ComparisonTable = ({ careers, selectedCareers, onCareerSelect, onCareerRem
     sorted.sort((a, b) => {
       let aValue, bValue
 
-      switch (sortBy) {
+switch (sortBy) {
         case 'title':
           aValue = a.title.toLowerCase()
           bValue = b.title.toLowerCase()
@@ -37,11 +37,12 @@ const ComparisonTable = ({ careers, selectedCareers, onCareerSelect, onCareerRem
           aValue = parseInt(a.avgSalary.replace(/[^0-9]/g, ''))
           bValue = parseInt(b.avgSalary.replace(/[^0-9]/g, ''))
           break
-        case 'growth':
+        case 'growth': {
           const growthOrder = { 'High': 3, 'Above Average': 2, 'Average': 1 }
           aValue = growthOrder[a.growthRate] || 0
           bValue = growthOrder[b.growthRate] || 0
           break
+        }
         default:
           return 0
       }

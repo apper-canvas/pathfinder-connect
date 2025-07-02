@@ -53,23 +53,7 @@ const Loading = ({ type = 'default' }) => {
     )
   }
 
-  return (
-    <div className="flex items-center justify-center min-h-64">
-      <motion.div
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        className="text-center"
-      >
-        <div className="relative">
-          <div className="w-16 h-16 border-4 border-primary-200 border-t-primary-600 rounded-full animate-spin mx-auto mb-4"></div>
-          <div className="absolute inset-0 w-16 h-16 border-4 border-transparent border-t-secondary-500 rounded-full animate-spin mx-auto" style={{ animationDelay: '0.2s', animationDuration: '1.5s' }}></div>
-        </div>
-        <p className="text-gray-600 font-medium">Loading your career insights...</p>
-      </motion.div>
-    </div>
-)
-
-  if (type === 'comparison') {
+if (type === 'comparison') {
     return (
       <div className="space-y-6">
         {/* Table Header Skeleton */}
@@ -120,6 +104,22 @@ const Loading = ({ type = 'default' }) => {
       </div>
     )
   }
+
+  return (
+    <div className="flex items-center justify-center min-h-64">
+      <motion.div
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        className="text-center"
+      >
+        <div className="relative">
+          <div className="w-16 h-16 border-4 border-primary-200 border-t-primary-600 rounded-full animate-spin mx-auto mb-4"></div>
+          <div className="absolute inset-0 w-16 h-16 border-4 border-transparent border-t-secondary-500 rounded-full animate-spin mx-auto" style={{ animationDelay: '0.2s', animationDuration: '1.5s' }}></div>
+        </div>
+        <p className="text-gray-600 font-medium">Loading your career insights...</p>
+      </motion.div>
+    </div>
+  )
 }
 
 export default Loading
