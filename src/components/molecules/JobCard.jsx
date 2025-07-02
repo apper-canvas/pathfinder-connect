@@ -1,15 +1,25 @@
 import { motion } from 'framer-motion'
+import { toast } from 'react-toastify'
 import ApperIcon from '@/components/ApperIcon'
 import Card from '@/components/atoms/Card'
-
+import Button from '@/components/atoms/Button'
 const JobCard = ({ job, index = 0 }) => {
+  const handleApplyNow = () => {
+    if (job.url) {
+      window.open(job.url, '_blank', 'noopener,noreferrer')
+      toast.success(`Application opened for ${job.title} at ${job.company}`)
+    } else {
+      toast.error('Application link not available')
+    }
+  }
+
   return (
     <motion.div
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ delay: index * 0.1 }}
     >
-      <Card className="p-6 group cursor-pointer">
+      <Card className="p-6 group">
         <div className="flex items-start justify-between mb-4">
           <div className="flex-1">
             <h3 className="text-lg font-bold text-gray-900 group-hover:text-primary-600 transition-colors">
@@ -51,11 +61,15 @@ const JobCard = ({ job, index = 0 }) => {
             <ApperIcon name="Clock" size={14} className="mr-1" />
             <span>Posted 2 days ago</span>
           </div>
-          
-          <div className="flex items-center text-primary-600 group-hover:text-primary-700 transition-colors">
+<Button 
+            variant="primary" 
+            size="sm" 
+            onClick={handleApplyNow}
+            className="flex items-center"
+          >
             <span className="text-sm font-medium">Apply now</span>
             <ApperIcon name="ExternalLink" size={16} className="ml-2" />
-          </div>
+          </Button>
         </div>
       </Card>
     </motion.div>
